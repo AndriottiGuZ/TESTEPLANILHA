@@ -63,6 +63,7 @@ button:hover {
 
     .container {
         padding: 300px; /* Adiciona mais espaço interno ao container */
-        border-radius: 15px; /* Aumenta o arredondamento das bordas */
+        border-radius: 15px; /* Aumenta o arredondamento das bordas */]
+        height: 100%
     }
 }
