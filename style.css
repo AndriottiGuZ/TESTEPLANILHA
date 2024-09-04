@@ -4,8 +4,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Calibri, sans-serif, b;
-    background-image: url('Design sem nome.png');
+    font-family: Calibri, sans-serif;
+    background-image: url('imagens/Design sem nome.png');
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Não repete a imagem */
@@ -18,19 +18,23 @@ body {
     align-items: center;
     padding: 20px;
     background-color: orange;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Ajuste a largura para dispositivos móveis */
+    max-width: 400px; /* Limita a largura máxima em dispositivos maiores */
 }
 
 h1 {
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center; /* Centraliza o texto */
 }
 
 .button-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 100%; /* Garante que os botões ocupem toda a largura do container */
 }
 
 button {
@@ -50,23 +54,19 @@ button:hover {
     background-color: darksalmon;
 }
 
-@media only screen and (max-width: 600px) {
-    .calculadora {
-        padding: 10px;
-    }
-
-    #display {
-        font-size: 2.5rem;
-        height: 80px;
+/* Ajustes para dispositivos móveis */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5rem; /* Aumenta o tamanho do título em dispositivos móveis */
     }
 
     button {
-        font-size: 2.5rem;
-        height: 62.5px;
+        height: 70px; /* Aumenta a altura dos botões */
+        font-size: 2rem; /* Aumenta o tamanho do texto nos botões */
     }
 
-    .limpar {
-        height: 50px;
-        font-size: 1.5rem;
+    .container {
+        padding: 30px; /* Adiciona mais espaço interno ao container */
+        border-radius: 15px; /* Aumenta o arredondamento das bordas */
     }
 }
