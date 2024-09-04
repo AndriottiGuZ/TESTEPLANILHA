@@ -57,13 +57,12 @@ button:hover {
     }
 
     button {
-        height: 70px; /* Aumenta a altura dos botões */
+        height: 100%; /* Aumenta a altura dos botões */
         font-size: 3rem; /* Aumenta o tamanho do texto nos botões */
-        height: 100%;
     }
 
     .container {
-        padding: 30px; /* Adiciona mais espaço interno ao container */
+        padding: 80px; /* Adiciona mais espaço interno ao container */
         border-radius: 15px; /* Aumenta o arredondamento das bordas */
     }
 }
