@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Calibri, sans-serif;
-    background-image: url('imagens/Design sem nome.png');
+    background-image: url('Design sem nome.png');
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Não repete a imagem */
