@@ -62,7 +62,7 @@ button:hover {
     }
 
     .container {
-        padding: 80px; /* Adiciona mais espaço interno ao container */
+        padding: 100%; /* Adiciona mais espaço interno ao container */
         border-radius: 15px; /* Aumenta o arredondamento das bordas */
     }
 }
