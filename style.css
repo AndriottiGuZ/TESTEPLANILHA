@@ -17,7 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100%;
+    padding: 20px;
     background-color: transparent;
     border-radius: 5px;
 
@@ -62,7 +62,7 @@ button:hover {
     }
 
     .container {
-        padding: 100%; /* Adiciona mais espaço interno ao container */
+        padding: 300px; /* Adiciona mais espaço interno ao container */
         border-radius: 15px; /* Aumenta o arredondamento das bordas */
     }
 }
