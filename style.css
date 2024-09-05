@@ -55,21 +55,3 @@ button:hover {
     background-color: darksalmon;
 }
 
-@media (max-width: 600px) {/
-    h1 {
-        font-size: 2.5rem; /* Aumenta o tamanho do título em dispositivos móveis */
-    }
-
-    button {
-        height: 100px; /* Aumenta a altura dos botões */
-        font-size: 5rem; /* Aumenta o tamanho do texto nos botões */
-        padding: 30px;
-        padding-right: 50px;
-        padding-left: 50px;
-    }
-
-    .container {
-        padding: 100px; /* Adiciona mais espaço interno ao container */
-        border-radius: 15px; /* Aumenta o arredondamento das bordas */
-    }
-}
