@@ -55,7 +55,7 @@ button:hover {
     background-color: darksalmon;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1800px) {
     h1 {
         font-size: 2.5rem; /* Aumenta o tamanho do título em dispositivos móveis */
     }
